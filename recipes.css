@@ -22,3 +22,11 @@ footer {
     img {
         height: 200px;
     }
+
+nav {
+    border-bottom: 1px solid black;
+    padding: 16px;
+    }
+* {
+    font-family: 'Roboto', sans-serif;
+}
