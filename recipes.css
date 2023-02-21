@@ -1,32 +1,119 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-
-
-main {
-font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     margin: 0%;
     padding: 0%;
-    }
-main {
-    padding: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
+    margin-top: auto;
+    margin-bottom: 10px;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-    img {
-        height: 200px;
-    }
-
-nav {
-    border-bottom: 1px solid black;
-    padding: 16px;
-    }
-* {
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #B4CF66;
+    color: #053c05;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+img {
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+    margin: 16px;
+}
+nav {
+    border-bottom:3px solid black;
+    padding: 16px;
+    background-color: #FF5A33;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+a:visited {
+    color: rgb(90, 3, 87);
+}
+
+a {
+    color: rgb(4, 138, 4);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(39, 169, 234);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1:visited {
+    color: rgb(90, 3, 87);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1:link {
+    color: rgb(3, 81, 3);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1:hover {
+    color:rgb(39, 169, 234);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(3, 81, 3);
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(3, 81, 3);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+div.ingredients {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+tr:nth-child(even) {
+    grid-column: 2;
+    background: rgba(0, 0, 0, 10%);  
+}
+
+th {
+    background: white;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
